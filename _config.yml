@@ -28,14 +28,13 @@ defaults:
 paginate: 20
 
 #### Site
-title : Jekyll Jacman
-tagline: A fresh looking and responsive theme for Jekyll
+title : 42
 assets: /assets
 url:
 baseurl:
 
 #### Language
-language: zh-CN    ## blog site languages: en, zh-CN, zh-TW, de
+language: en    ## blog site languages: en, zh-CN, zh-TW, de
 
 #### Menu
 menu:
@@ -110,8 +109,7 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  42's github: https://github.com/peiyusi
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
