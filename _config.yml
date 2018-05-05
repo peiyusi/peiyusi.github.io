@@ -14,7 +14,7 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 
 author: '42'
@@ -78,3 +78,4 @@ permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
+
