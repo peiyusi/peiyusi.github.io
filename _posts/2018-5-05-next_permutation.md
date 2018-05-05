@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing next_permutation function
-date: 2018-4-25
+date: 2018-5-5
 author: 42
 tags: C++
 ---
@@ -38,12 +38,40 @@ The 3! possible permutations with 3 elements:
 2 3 1
 3 1 2
 3 2 1
-After loop: 1 2 3
+After loop: 1 2 3 
 ```
 
+Algorithm:
 
+* Finding two near-by elements i and ii from the end(i < ii), then find iii (iii > i), swap i and iii.
+* Reverse elements behind ii.
 
+ 
 
+My own version: 
+
+```c
+void mynext_permutation(int N)
+{
+    int x1, x2; 
+  
+    for (int i = N -1; i > 0; i--) {
+        if (a[i] > a[i-1]) {
+            x1 = i-1;
+            x2 = i;
+            break;
+        }   
+    }   
+    for (int i = N-1; i > 0; i--) {
+        if (a[i] > a[x1]) {
+            swap(a[i], a[x1]);
+            reverse(a+x2, a+N); 
+            break;
+        }   
+    }   
+}
+
+```
 
 
 
