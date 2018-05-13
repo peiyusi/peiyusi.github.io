@@ -1,9 +1,9 @@
 ---
-layout:post
-title:'Quicksort'
-date:2018-5-13
-author:42
-tags:Algorithm
+layout: post
+title: 'Quicksort'
+date: 2018-5-13
+author: 42
+tags: Algorithm
 ---
 
 [Quicksort][1] is a common sorting algorithm, and the key process in quicksort is *partition*.
